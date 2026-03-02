@@ -16,7 +16,7 @@ const response = await  axios.get(BASE_URL, {
       page:page
     }
 })
-const results=response.data;
-return results
+return response.data;
+
  
 }
